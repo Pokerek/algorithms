@@ -1,0 +1,27 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "My algorithms interpretation in JavaScript",
+  "main": "index.js",
+  "module": "true",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Algorithms",
+    "JavaScript",
+    "Tests"
+  ],
+  "author": "Karol Chrobok",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
