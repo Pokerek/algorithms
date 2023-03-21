@@ -15,8 +15,9 @@ describe('isArraySorted', () => {
    })
 
    it('should throw error if argument is not an array or not argument is passed', () => {
-      expect(() => isArraySorted()).toThrow('Argument must be an array');
-      expect(() => isArraySorted(0)).toThrow('Argument must be an array');
-      expect(() => isArraySorted('test')).toThrow('Argument must be an array');
+      expect(() => isArraySorted(0)).toThrow('Argument must be an array.');
+      expect(() => isArraySorted('test')).toThrow('Argument must be an array.');
+      expect(() => isArraySorted({test: 'test'})).toThrow('Argument must be an array.');
+      expect(() => isArraySorted()).toThrow('You need one argument as array.');
    })
 })

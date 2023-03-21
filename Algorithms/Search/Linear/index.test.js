@@ -18,6 +18,6 @@ describe('Linear search', () => {
    })
 
    it('should throw an error if no arguments are passed', () => {
-      expect(() => linearSearch().toThrow('You need two arguments value and array.'))
+      expect(() => linearSearch()).toThrow('You need two arguments value and array.')
    })
 })
