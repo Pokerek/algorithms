@@ -1,4 +1,4 @@
-import isArraySorted from "../../Utils/isArraySorted";
+import isArraySorted from "../../../Utils/isArraySorted";
 
 export default function binarySearch(value, array) {
    if (!Array.isArray(array)) throw Error('Second argument must be an array.');

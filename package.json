@@ -22,6 +22,8 @@
   "jest": {
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
-    }
+    },
+    "verbose": true,
+    "bail": 1
   }
 }
